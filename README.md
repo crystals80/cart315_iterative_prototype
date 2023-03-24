@@ -1,6 +1,6 @@
 # CART 315 Iterative Prototype 
 
-<b>Design Hypothesis</b>  
+<b>Design Hypothesis 1 </b>  
 
 <br>
 
@@ -8,10 +8,47 @@ By providing a tutorial level to get playtesters familiar with the controls, I b
 
 <br>
 
-<b>List of questions for playtesters</b>
+<b>List of questions for playtesters 1</b>
 <ol><li>Do you think the tutorial stage was helpful?</li>
   <li>What did you think of the duality between the second stage and the last stage?</li>
   <li>How do you think of going sideways with this camera angle?</li>
   <li>What do you think of the soundtrack? Should it be repeated at each level or not?</li>
   <li>How many tries (and times do they get caught up by the timer) till the player gave up? Did you feel like you should give up? </li>
   <li>What do you think of the invisible timer?</li></ol> 
+  
+<br>
+
+<b>Design Hypothesis 2</b>  
+
+<br>
+
+...    
+
+<br>
+
+<b>List of questions for playtesters 2</b>
+<ol><li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li></ol> 
+  
+<br>
+
+<b>Design Hypothesis 3</b>  
+
+<br>
+
+...   
+
+<br>
+
+<b>List of questions for playtesters 3</b>
+<ol><li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li></ol> 
+
