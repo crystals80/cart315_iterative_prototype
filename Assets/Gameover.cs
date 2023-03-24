@@ -8,7 +8,7 @@ public class Gameover : MonoBehaviour
     void OnCollisionEnter()
     {
         GetComponent<AudioSource>().Play();
-        Invoke("Reload", 1.59f);
+        Invoke("Reload", 1f);
     }
     void Reload()
     {

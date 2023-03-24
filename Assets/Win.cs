@@ -1,17 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class win : MonoBehaviour
 {
+    public GameObject Player;
+
+    //void OnCollisionEnter(Collision collision)
     void OnCollisionEnter()
     {
         GetComponent<AudioSource>().Play();
-        Invoke("Reload", 5f);
+        Invoke("Reload", 2.5f);
     }
-    void Reload()
+
+    void Reload(/*Collision collision*/)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("WorkingScene");
+        /*if (collision.gameObject.CompareTag("FinishOne"))
+        {
+            SceneManager.LoadScene("WorkingScene");
+        }*/
     }
+
 }
