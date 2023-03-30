@@ -4,21 +4,29 @@ using UnityEngine.SceneManagement;
 public class win : MonoBehaviour
 {
     public GameObject Player;
+    public GameObject GameManagerInstance;
+    public int currentLevel;
+    private int switchCurrentLevel;
 
-    //void OnCollisionEnter(Collision collision)
+    void Start()
+    {
+        GameManagerInstance = GameObject.Find("GameManager");
+        currentLevel = GameManagerInstance.GetComponent<GameManagerScript>().level;
+        Debug.Log("Level in trigger script" + currentLevel);
+    }
+
     void OnCollisionEnter()
     {
         GetComponent<AudioSource>().Play();
         Invoke("Reload", 2.5f);
     }
 
-    void Reload(/*Collision collision*/)
+    void Reload()
     {
-        SceneManager.LoadScene("WorkingScene");
-        /*if (collision.gameObject.CompareTag("FinishOne"))
-        {
-            SceneManager.LoadScene("WorkingScene");
-        }*/
+        switchCurrentLevel = currentLevel + 1;
+        GameManagerInstance.GetComponent<GameManagerScript>().SetNewLevel();
+        SceneManager.LoadScene("Level" + switchCurrentLevel);
+       
     }
 
 }

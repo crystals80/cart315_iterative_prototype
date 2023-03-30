@@ -3,24 +3,43 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CountdownTimer : MonoBehaviour
 {
-    float timeLeft = 120.0f;
+    public float timeLeft = 0;
+    public bool timerIsRunning = false;
 
-    void Start()
+    public TextMeshProUGUI timeText;
+    private void Start()
     {
+        // Starts the timer automatically
+        timerIsRunning = true;
     }
-
     void Update()
     {
-        timeLeft -= Time.deltaTime;
-
-        if (timeLeft < 0)
+        if (timerIsRunning)
         {
-            Debug.Log("timer done");
-            SceneManager.LoadScene("WorkingScene");
+            if (timeLeft > 0)
+            {
+                timeLeft -= Time.deltaTime;
+                DisplayTime(timeLeft);
+            }
+            else
+            {
+                Debug.Log("Time has run out!");
+                timeLeft = 0;
+                timerIsRunning = false;
+                SceneManager.LoadScene("WorkingScene");
+            }
         }
+    }
+    void DisplayTime(float timeToDisplay)
+    {
+        timeToDisplay += 1;
+        float minutes = Mathf.FloorToInt(timeToDisplay / 60);
+        float seconds = Mathf.FloorToInt(timeToDisplay % 60);
+        timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }
 
