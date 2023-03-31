@@ -18,13 +18,15 @@ public class TeleportToCheckpoint : MonoBehaviour
     {
 
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
+        Debug.Log(collision);
         if (collision.gameObject.CompareTag("ToCheckpoints"))
         {
             
             GetComponent<AudioSource>().Play();
-            Invoke("Reload", 1f);
+            Debug.Log("collision!");
+            Teleport();
         }
     }
 
