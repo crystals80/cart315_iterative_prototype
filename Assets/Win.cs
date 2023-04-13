@@ -18,7 +18,7 @@ public class win : MonoBehaviour
     void OnCollisionEnter()
     {
         GetComponent<AudioSource>().Play();
-        Invoke("Reload", 2.5f);
+        Invoke("Reload", 2f);
     }
 
     void Reload()

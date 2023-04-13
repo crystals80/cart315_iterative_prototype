@@ -2111,7 +2111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Just a little bit more...
+  m_text: Trust the space between the walls!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3389,7 +3389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2322188426681717653, guid: 4b376ae454c299e43863e76c5a7bf4e6, type: 3}
       propertyPath: m_TagString
-      value: FinishOne
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2322188426681717655, guid: 4b376ae454c299e43863e76c5a7bf4e6, type: 3}
       propertyPath: Player

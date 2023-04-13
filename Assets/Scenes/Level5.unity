@@ -137,6 +137,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &115994235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -199,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568362641311522330, guid: 6a7c4cee529b8164f8dab72786a662a1, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -214,6 +216,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2206464230696447733, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: ToCheckpoint1
+      value: 
+      objectReference: {fileID: 604379528}
     - target: {fileID: 4459864850019384736, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -298,13 +304,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7278282252599342920, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: ToCheckpoint1
+      value: 
+      objectReference: {fileID: 604379528}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1526684736}
     - targetCorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1526684742}
@@ -323,6 +330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &137292335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -341,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1418385088338035446, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 1418385088338035451, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_RootOrder
@@ -393,7 +402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1732662535186806058, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 6671889952753157537, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_IsTrigger
@@ -401,7 +410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6671889952753157539, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -428,6 +437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &168778118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -740,7 +751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1418385088338035446, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 1418385088338035451, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_RootOrder
@@ -792,7 +803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1732662535186806058, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 6671889952753157537, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_IsTrigger
@@ -800,7 +811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6671889952753157539, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -940,7 +951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 79846425715076942, guid: cd208ff7bef4b31448949b0ddc94e546, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -961,6 +972,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &417072979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1032,7 +1045,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3093472965756659713, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 3093472965756659715, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -1044,7 +1057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425620, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425622, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -1096,7 +1109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986504, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986506, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -1113,6 +1126,67 @@ PrefabInstance:
       insertIndex: 4
       addedObject: {fileID: 1777029665}
   m_SourcePrefab: {fileID: 100100000, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
+--- !u!1001 &478072487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 86.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010792, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315836659054010794, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
 --- !u!1001 &587093078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1171,7 +1245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470126896877636397, guid: 59ae220d13851e54db6f077b9dc9ab17, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 470126896877636399, guid: 59ae220d13851e54db6f077b9dc9ab17, type: 3}
       propertyPath: m_IsTrigger
@@ -1179,7 +1253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 946463146695589105, guid: 59ae220d13851e54db6f077b9dc9ab17, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 946463146695589107, guid: 59ae220d13851e54db6f077b9dc9ab17, type: 3}
       propertyPath: m_IsTrigger
@@ -1187,7 +1261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5313812991093738616, guid: 59ae220d13851e54db6f077b9dc9ab17, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 5313812991093738618, guid: 59ae220d13851e54db6f077b9dc9ab17, type: 3}
       propertyPath: m_IsTrigger
@@ -1204,46 +1278,11 @@ PrefabInstance:
       insertIndex: 4
       addedObject: {fileID: 126821220}
   m_SourcePrefab: {fileID: 100100000, guid: 59ae220d13851e54db6f077b9dc9ab17, type: 3}
---- !u!1 &604379528
+--- !u!1 &604379528 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5315836659054010794, guid: 5b53e9ffa064e804e8c2bdc049aeb7c0, type: 3}
+  m_PrefabInstance: {fileID: 478072487}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 604379530}
-  - component: {fileID: 604379529}
-  m_Layer: 0
-  m_Name: Checkpoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &604379529
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604379528}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &604379530
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604379528}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: 13.34, z: 86.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &660479842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1596,7 +1635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1418385088338035446, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 1418385088338035451, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_RootOrder
@@ -1648,7 +1687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1732662535186806058, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 6671889952753157537, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_IsTrigger
@@ -1656,7 +1695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6671889952753157539, guid: 60ab0d881f408584ea3fc6e1e7ac3e50, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1677,6 +1716,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &873059799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2258,7 +2299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5137769673256973559, guid: 4943e74de78cdf847b018b54c6a5c8e4, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 5137769673256973562, guid: 4943e74de78cdf847b018b54c6a5c8e4, type: 3}
       propertyPath: m_RootOrder
@@ -2666,7 +2707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8568362641311522330, guid: 6a7c4cee529b8164f8dab72786a662a1, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2687,6 +2728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &1404574737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2697,7 +2740,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3093472965756659713, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 3093472965756659715, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -2709,7 +2752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425620, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425622, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -2761,7 +2804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986504, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986506, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -2792,6 +2835,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1 &1489703014
 GameObject:
   m_ObjectHideFlags: 0
@@ -3141,20 +3186,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
   m_PrefabInstance: {fileID: 124557386}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1526684736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 905080003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4468be1a12ac95143af1165d88b21758, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 905080003}
-  ToCheckpoint1: {fileID: 604379528}
 --- !u!82 &1526684742
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3326,6 +3357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!114 &1548107245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3340,6 +3373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!114 &1548501963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3354,6 +3389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!114 &1587608516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3368,6 +3405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &1593305508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3561,7 +3600,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3093472965756659713, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 3093472965756659715, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -3573,7 +3612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425620, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425622, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -3625,7 +3664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986504, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986506, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -3871,6 +3910,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &1780858606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3881,7 +3922,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3093472965756659713, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 3093472965756659715, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -3893,7 +3934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425620, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7338180653163425622, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -3945,7 +3986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986504, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_TagString
-      value: ToCheckpoints
+      value: ToCheckpoint1
       objectReference: {fileID: 0}
     - target: {fileID: 7958650750668986506, guid: 6ecf7a32ba0146042b946e50e1b6240d, type: 3}
       propertyPath: m_IsTrigger
@@ -4098,6 +4139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1 &1836453739
 GameObject:
   m_ObjectHideFlags: 0
@@ -4548,6 +4591,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 905080003}
   ToCheckpoint1: {fileID: 604379528}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1001 &28965552429018344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4763,7 +4808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2322188426681717653, guid: 4b376ae454c299e43863e76c5a7bf4e6, type: 3}
       propertyPath: m_TagString
-      value: FinishOne
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2322188426681717655, guid: 4b376ae454c299e43863e76c5a7bf4e6, type: 3}
       propertyPath: Player

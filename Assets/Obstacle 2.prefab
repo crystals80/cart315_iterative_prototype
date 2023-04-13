@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 7958650750668986500}
   - component: {fileID: 7958650750668986507}
   - component: {fileID: 7958650750668986506}
-  - component: {fileID: 4836241410691861558}
+  - component: {fileID: 4325676229952998412}
   - component: {fileID: 3968671139554594874}
   m_Layer: 0
   m_Name: Obstacle (4)
@@ -539,7 +539,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4836241410691861558
+--- !u!114 &4325676229952998412
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

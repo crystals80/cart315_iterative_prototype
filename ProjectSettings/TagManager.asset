@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FinishOne
-  - ToCheckpoints
+  - ToCheckpoint1
+  - ToCheckpoint2
+  - ToCheckpoint3
   layers:
   - Default
   - TransparentFX

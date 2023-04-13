@@ -27,10 +27,11 @@ public class CountdownTimer : MonoBehaviour
             }
             else
             {
+                GetComponent<AudioSource>().Play();
                 Debug.Log("Time has run out!");
                 timeLeft = 0;
                 timerIsRunning = false;
-                SceneManager.LoadScene("WorkingScene");
+                Invoke("Reload", 1f);
             }
         }
     }
@@ -40,6 +41,10 @@ public class CountdownTimer : MonoBehaviour
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+    void Reload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
 
