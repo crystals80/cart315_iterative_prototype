@@ -26,7 +26,19 @@ public class win : MonoBehaviour
         switchCurrentLevel = currentLevel + 1;
         GameManagerInstance.GetComponent<GameManagerScript>().SetNewLevel();
         SceneManager.LoadScene("Level" + switchCurrentLevel);
-       
     }
+
+    /*void RestartPreviousScene()
+    {
+        //GetComponent<AudioSource>().Play();
+        Invoke("ReloadPrevious", 2f);
+    }
+
+    void ReloadPrevious()
+    {
+        switchCurrentLevel = currentLevel - 1;
+        GameManagerInstance.GetComponent<GameManagerScript>().SetNewLevel();
+        SceneManager.LoadScene("Level" + switchCurrentLevel);
+    }*/
 
 }

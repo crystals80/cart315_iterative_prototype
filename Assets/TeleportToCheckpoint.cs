@@ -6,21 +6,23 @@ public class TeleportToCheckpoint : MonoBehaviour
 {
     public GameObject Player;
     public GameObject ToCheckpoint1;
-    //public GameObject ToCheckpoint2;
-    //public GameObject ToCheckpoint3;
+    public GameObject ToCheckpoint2;
+    public GameObject ToCheckpoint3;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    /*public Transform player;
+    public Vector3 point; //position of the point you want to rotate around
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            player.transform.RotateAround(point, Vector3.left, 20 * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
+            player.transform.RotateAround(point, Vector3.right, 20 * Time.deltaTime);
+    }*/
 
-    }
-    private void OnTriggerEnter(Collider collision)
+private void OnTriggerEnter(Collider collision)
     {
         Debug.Log(collision);
         if (collision.gameObject.CompareTag("ToCheckpoint1"))
@@ -31,7 +33,7 @@ public class TeleportToCheckpoint : MonoBehaviour
             Teleport1();
         }
 
-        /*if (collision.gameObject.CompareTag("ToCheckpoint2"))
+        if (collision.gameObject.CompareTag("ToCheckpoint2"))
         {
 
             GetComponent<AudioSource>().Play();
@@ -45,19 +47,19 @@ public class TeleportToCheckpoint : MonoBehaviour
             GetComponent<AudioSource>().Play();
             Debug.Log("collision!");
             Teleport3();
-        }*/
+        }
     }
 
     void Teleport1()
     {
         Player.transform.position = ToCheckpoint1.transform.position;
     }
-    /*void Teleport2()
+    void Teleport2()
     {
         Player.transform.position = ToCheckpoint2.transform.position;
     }
     void Teleport3()
     {
         Player.transform.position = ToCheckpoint3.transform.position;
-    }*/
+    }
 }
