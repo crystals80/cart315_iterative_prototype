@@ -227,7 +227,6 @@ GameObject:
   - component: {fileID: 7338180653163425624}
   - component: {fileID: 7338180653163425623}
   - component: {fileID: 7338180653163425622}
-  - component: {fileID: -2388146451934071555}
   - component: {fileID: 7779707703727921296}
   m_Layer: 0
   m_Name: Obstacle 2
@@ -324,18 +323,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-2388146451934071555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7338180653163425620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b23171718493c4f835920a60affe21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &7779707703727921296
 AudioSource:
   m_ObjectHideFlags: 0

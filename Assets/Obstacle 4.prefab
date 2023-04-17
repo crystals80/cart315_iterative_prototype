@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 470126896877636385}
   - component: {fileID: 470126896877636398}
   - component: {fileID: 470126896877636399}
-  - component: {fileID: -742959971130544601}
   - component: {fileID: 5186959140760797198}
   m_Layer: 0
   m_Name: Obstacle 4
@@ -109,18 +108,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-742959971130544601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470126896877636397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b23171718493c4f835920a60affe21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &5186959140760797198
 AudioSource:
   m_ObjectHideFlags: 0

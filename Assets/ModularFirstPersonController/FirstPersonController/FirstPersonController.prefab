@@ -442,9 +442,8 @@ GameObject:
   - component: {fileID: 4459864850019384737}
   - component: {fileID: 4459864850019384741}
   - component: {fileID: 4459864850019384740}
-  - component: {fileID: 2206464230696447733}
   - component: {fileID: 4831889358951637456}
-  - component: {fileID: 8568464853760713496}
+  - component: {fileID: 3187395764972137704}
   m_Layer: 0
   m_Name: FirstPersonController
   m_TagString: Player
@@ -604,14 +603,14 @@ MonoBehaviour:
   walkSpeed: 5
   maxVelocityChange: 10
   enableSprint: 1
-  unlimitedSprint: 1
+  unlimitedSprint: 0
   sprintKey: 304
-  sprintSpeed: 7
+  sprintSpeed: 10
   sprintDuration: 5
   sprintCooldown: 0.5
   sprintFOV: 80
   sprintFOVStepTime: 10
-  useSprintBar: 1
+  useSprintBar: 0
   hideBarWhenFull: 1
   sprintBarBG: {fileID: 4459864851397454648}
   sprintBar: {fileID: 4459864850888339820}
@@ -622,29 +621,13 @@ MonoBehaviour:
   jumpPower: 5
   enableCrouch: 1
   holdToCrouch: 1
-  crouchKey: 304
+  crouchKey: 306
   crouchHeight: 0.75
   speedReduction: 0.5
   enableHeadBob: 1
   joint: {fileID: 4459864851508666808}
   bobSpeed: 10
   bobAmount: {x: 0, y: 0.1, z: 0}
---- !u!114 &2206464230696447733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4459864850019384750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4468be1a12ac95143af1165d88b21758, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 4459864850019384750}
-  ToCheckpoint1: {fileID: 0}
-  ToCheckpoint2: {fileID: 0}
-  ToCheckpoint3: {fileID: 0}
 --- !u!82 &4831889358951637456
 AudioSource:
   m_ObjectHideFlags: 0
@@ -741,7 +724,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8568464853760713496
+--- !u!114 &3187395764972137704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -750,24 +733,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4459864850019384750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddab74ade6263b0428f6dc7e17a9a694, type: 3}
+  m_Script: {fileID: 11500000, guid: 48cfd82f1fd8b024e8272c1bd53ac995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  numOfHearts: 10
-  hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  fullHeart: {fileID: 21300000, guid: 3a2701c5dc794fa43998abaed737a7e1, type: 3}
-  emptyHeart: {fileID: 21300000, guid: 1a8e2281e3f964d4d93379a7a0cb7578, type: 3}
+  obstacleDamage: 1
+  _gameManager: {fileID: 0}
+  Player: {fileID: 4459864850019384750}
+  ToCheckpoint0: {fileID: 0}
+  ToCheckpoint1: {fileID: 0}
+  ToCheckpoint2: {fileID: 0}
+  ToCheckpoint3: {fileID: 0}
 --- !u!1 &4459864850190357393
 GameObject:
   m_ObjectHideFlags: 0
