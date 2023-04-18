@@ -23,6 +23,12 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("AboutScreen");
     }
 
+    public void GoToCreditsMenu()
+    {
+        // Trigger the about screen
+        SceneManager.LoadScene("CreditsScreen");
+    }
+
     public void GoToMainMenu()
     {
         // Trigger the opening screen
