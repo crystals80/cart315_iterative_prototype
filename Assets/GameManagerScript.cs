@@ -32,16 +32,6 @@ public class GameManagerScript : MonoBehaviour
     {
         // Show which level the player is on in the game (only in console)
         Debug.Log(level);
-        if (prevLevel != level)
-        {
-            Debug.Log("herer");
-            prevLevel = level;
-            for (int i = 0; i < hearts.Length; i++)
-            {
-
-                Debug.Log(hearts[i].sprite);
-            }
-        }
     }
 
     void Awake()

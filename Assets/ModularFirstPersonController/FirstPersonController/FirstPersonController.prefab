@@ -600,10 +600,10 @@ MonoBehaviour:
   zoomFOV: 30
   zoomStepTime: 5
   playerCanMove: 1
-  walkSpeed: 5
+  walkSpeed: 6
   maxVelocityChange: 10
   enableSprint: 1
-  unlimitedSprint: 0
+  unlimitedSprint: 1
   sprintKey: 304
   sprintSpeed: 10
   sprintDuration: 5
@@ -738,7 +738,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacleDamage: 1
   _gameManager: {fileID: 0}
-  Player: {fileID: 4459864850019384750}
   ToCheckpoint0: {fileID: 0}
   ToCheckpoint1: {fileID: 0}
   ToCheckpoint2: {fileID: 0}

@@ -4352,7 +4352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb41555552f429c41ba5723b062cf334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  level: 1
   prevLevel: 0
   health: 10
   numOfHearts: 10
