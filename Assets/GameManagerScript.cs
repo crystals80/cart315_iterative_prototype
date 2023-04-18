@@ -47,8 +47,6 @@ public class GameManagerScript : MonoBehaviour
     {
         // Set a new level (Level 0 to Level 1 to Level 2, etc)
         level = level + 1;
-        
-
     }
 
     public void UpdateHealth()
@@ -56,10 +54,10 @@ public class GameManagerScript : MonoBehaviour
         // If the health line is at 0 (no more full hearts)...
         if (health <= 0)
         {
-            // ...trigger the sound effect dedicated to it...
-            //GetComponent<AudioSource>().Play();
-            // ...and restart the current scene/level by calling the Reload function after a delay of 1 frame 
+            // ...restart the current scene/level by calling the Reload function after a delay of 1 frame 
             Invoke("Reload", 1f);
+            // ...and restore health line to a full health line
+            health = numOfHearts;
         }
 
         // Set up the number of hearts to be available to edit in Unity
