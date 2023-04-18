@@ -8,6 +8,7 @@ public class GameManagerScript : MonoBehaviour
 {
     // Variable for level management
     public int level = 0;
+    public int prevLevel = 0;
 
     // Variables for health system
     public int health; // ...indicating the total number of life that the first controller has
@@ -16,6 +17,8 @@ public class GameManagerScript : MonoBehaviour
     public Image[] hearts; // ...creating an array for heart images
     public Sprite fullHeart; // ...creating sprites for a full life (with a filled heart shape)
     public Sprite emptyHeart; // ...creating sprited for an empty life (with an empty heart shape)
+
+    public GameObject canvas;
 
     // Start is called before the first frame update
     void Start()
@@ -29,18 +32,33 @@ public class GameManagerScript : MonoBehaviour
     {
         // Show which level the player is on in the game (only in console)
         Debug.Log(level);
+        if (prevLevel != level)
+        {
+            Debug.Log("herer");
+            prevLevel = level;
+            for (int i = 0; i < hearts.Length; i++)
+            {
+
+                Debug.Log(hearts[i].sprite);
+            }
+        }
     }
 
     void Awake()
     {
         // Maintain the game object that has this script in the desired scenes (for level management)
         DontDestroyOnLoad(this.gameObject);
+        canvas = GameObject.Find("Canvas Hearts");
+        DontDestroyOnLoad(canvas);
+
     }
 
     public void SetNewLevel()
     {
         // Set a new level (Level 0 to Level 1 to Level 2, etc)
         level = level + 1;
+        
+
     }
 
     public void UpdateHealth()
@@ -49,7 +67,7 @@ public class GameManagerScript : MonoBehaviour
         if (health <= 0)
         {
             // ...trigger the sound effect dedicated to it...
-            GetComponent<AudioSource>().Play();
+            //GetComponent<AudioSource>().Play();
             // ...and restart the current scene/level by calling the Reload function after a delay of 1 frame 
             Invoke("Reload", 1f);
         }

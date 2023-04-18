@@ -36,5 +36,6 @@ public class win : MonoBehaviour
         GameManagerInstance.GetComponent<GameManagerScript>().SetNewLevel();
         // Load the new level/scene
         SceneManager.LoadScene("Level" + switchCurrentLevel);
+
     }
 }

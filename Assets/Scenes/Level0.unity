@@ -1554,7 +1554,7 @@ GameObject:
   - component: {fileID: 713490630}
   - component: {fileID: 713490629}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas Hearts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4353,6 +4353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
+  prevLevel: 0
   health: 10
   numOfHearts: 10
   hearts:
@@ -4368,6 +4369,7 @@ MonoBehaviour:
   - {fileID: 1279959536}
   fullHeart: {fileID: 21300000, guid: 3a2701c5dc794fa43998abaed737a7e1, type: 3}
   emptyHeart: {fileID: 21300000, guid: 1a8e2281e3f964d4d93379a7a0cb7578, type: 3}
+  canvas: {fileID: 0}
 --- !u!1 &1764466407
 GameObject:
   m_ObjectHideFlags: 0

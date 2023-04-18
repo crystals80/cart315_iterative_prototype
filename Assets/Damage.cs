@@ -10,7 +10,7 @@ public class Damage : MonoBehaviour
     [SerializeField] private GameObject _gameManager;
 
     // Variables for teleportation and checkpoints
-    public GameObject Player;
+    //public GameObject Player;
     public GameObject ToCheckpoint0;
     public GameObject ToCheckpoint1;
     public GameObject ToCheckpoint2;
@@ -20,6 +20,7 @@ public class Damage : MonoBehaviour
     {
         // Heart is subtracted by 1 an obstacle is hit -> damage control
         obstacleDamage = 1;
+        _gameManager = GameObject.Find("GameManager");
     }
 
     private void OnCollisionEnter (Collision target)
@@ -86,18 +87,18 @@ public class Damage : MonoBehaviour
     // To teleport, change the first controller's position to where the game object's checkpoint is
     void Teleport0()
     {
-        Player.transform.position = ToCheckpoint0.transform.position;
+        transform.position = ToCheckpoint0.transform.position;
     }
     void Teleport1()
     {
-        Player.transform.position = ToCheckpoint1.transform.position;
+        transform.position = ToCheckpoint1.transform.position;
     }
     void Teleport2()
     {
-        Player.transform.position = ToCheckpoint2.transform.position;
+        transform.position = ToCheckpoint2.transform.position;
     }
     void Teleport3()
     {
-        Player.transform.position = ToCheckpoint3.transform.position;
+        transform.position = ToCheckpoint3.transform.position;
     }
 }
